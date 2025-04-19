@@ -14,7 +14,7 @@ app.use('/uploads/resumes', express.static('uploads/resumes'));
 
 app.use(cors(
   {
-    origin:"http://localhost:4200",
+    origin:["http://localhost:4200","https://jobtech.netlify.app/"],
     credentials:true,
   }
 ))
